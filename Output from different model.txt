@@ -1,0 +1,26 @@
+Evaluation on the Training data by different models:
+
+Model 1: Linear Regression
+Results:
+    -- RMSE --
+        Root Mean Square Error is: 4.835301058716238
+        
+    -- Cross Validation --
+        Mean:  5.037482786117751
+        Standard deviation:  1.0594382405606948
+
+Model 2: Decision Tree
+Results:
+    -- RMSE --
+        Root Mean Square Error is: 0.0
+    -- Cross Validation --
+        Mean:  4.271935999042942
+        Standard deviation:  0.7775257916406063
+        
+Model 3: Random Forest Regression
+Results:
+    -- RMSE --
+        Root Mean Square Error is: 1.1634295517057218
+    -- Cross Validation --
+        Mean:  3.301961620269954
+        Standard deviation:  0.7040608050208857
