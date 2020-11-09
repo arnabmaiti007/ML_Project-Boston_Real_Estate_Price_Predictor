@@ -54,4 +54,4 @@ def predict():
     return render_template('index.html', prediction_text="Predicted Price: $%.2f"%(output[0]*1000))
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
